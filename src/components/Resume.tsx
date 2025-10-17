@@ -15,7 +15,7 @@ export function Resume() {
               <div className="h-0.5 w-12 bg-[#4285f4]"></div>
             </div>
             <p className="text-[#5f6368] text-lg mb-6">
-              Senior UI Engineer • Email & Front-End Specialist
+              Senior UI Engineer
             </p>
 
             <div className="flex gap-6 text-[#5f6368] text-sm">
@@ -65,7 +65,7 @@ export function Resume() {
               <div className="flex justify-between items-baseline mb-4">
                 <div>
                   <h3 className="text-[#1a1a1a]">
-                    Sr. UI Engineer
+                    Design Systems Engineer
                   </h3>
                   <p className="text-[#4285f4] text-sm">
                     American Express
