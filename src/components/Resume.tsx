@@ -55,7 +55,7 @@ export function Resume() {
               cross-platform testing, and WCAG-compliant
               interfaces. Proven success building email systems
               serving 2M+ recipients monthly, architecting
-              design systems for 200+ developers, and delivering
+              design systems for 10,000+ developers, and delivering
               high-impact user experiences at Fortune 500
               companies including American Express and PwC.
             </p>
@@ -84,85 +84,71 @@ export function Resume() {
               <ul className="space-y-2.5 text-[#5f6368] text-sm">
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Email Template Development (Centurion
-                    System):
+                    Delivered 2M+ monthly email campaigns
                   </strong>{" "}
-                  Led end-to-end development of responsive email
-                  template system serving 2M+ recipients monthly
-                  for premium Black Card members. Hand-coded
-                  HTML/CSS templates with cross-platform
-                  compatibility (Gmail, Outlook, Apple Mail).
-                  Implemented WCAG 2.1 AA accessibility
-                  standards and rigorous email testing workflows
-                  using Litmus and Email on Acid.
+                  for Centurion Black Card members by
+                  hand-coding responsive HTML/CSS email
+                  templates with cross-platform compatibility
+                  (Gmail, Outlook, Apple Mail). Implemented WCAG
+                  2.1 AA accessibility and rigorous testing
+                  workflows using Litmus and Email on Acid.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Passkeys Security Implementation (SME):
+                    Reduced security incidents 77%
                   </strong>{" "}
-                  Collaborated with security and engineering
-                  teams as Subject Matter Expert to implement
-                  Passkeys authentication using WebAuthn and
-                  crypto.subtle APIs. Enhanced security
-                  architecture reducing unauthorized access
-                  attempts and phishing incidents by 77% while
-                  improving user experience by lowering login
-                  complexity.
+                  by implementing Passkeys authentication as SME
+                  using WebAuthn and crypto.subtle APIs.
+                  Simplified login UX while eliminating phishing
+                  vulnerabilities and unauthorized access
+                  attempts.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    User Onboarding & Authentication:
+                    Improved onboarding efficiency 10-30%
                   </strong>{" "}
-                  Developed consolidated Onboarding Wizard and
-                  login screens using email, OTP, and SMS
-                  verification with React. Reduced login
-                  completion time by 12% and improved onboarding
-                  efficiency by 10-30% for new users including
-                  directors, architects, and designers.
-                  Streamlined POD/POA workflows increasing user
+                  by developing consolidated Onboarding Wizard
+                  with React, email/OTP/SMS verification, and
+                  streamlined POD/POA workflows. Reduced login
+                  completion time by 12% and increased user
                   satisfaction by 12%.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    UI/UX Excellence & Global Testing:
+                    Validated UX across 100K+ users
                   </strong>{" "}
-                  Worked with global UX teams conducting
-                  comprehensive end-to-end testing across
-                  international markets. Resolved 25+ broken
-                  links, improved experiences in unsupported
-                  global markets, and validated intuitive UX
-                  patterns with A/B testing across 100K+ users.
+                  through A/B testing and end-to-end testing with
+                  global UX teams. Resolved 25+ broken links and
+                  improved experiences in unsupported
+                  international markets.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Design System Migration & Component Enhancement:
+                    Migrated 200+ developers to v7 design system
                   </strong>{" "}
-                  Joined enterprise design system team during v6 to v7 transition serving 20000+ developers. Enhanced assigned v7 components with React and TypeScript, and assisted multiple teams in upgrading from v6 to v7, ensuring full compliance and WCAG accessibility standards across migrated applications.
+                  by enhancing React/TypeScript components and
+                  assisting teams in v6 to v7 upgrades. Ensured
+                  full WCAG accessibility compliance across all
+                  migrated applications.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Theme Builder & Token System Architecture:
+                    Built theme builder tool
                   </strong>{" "}
-                  Architected internal theme builder tool for
-                  developer-designer collaboration with real-time
-                  token tracking and unused token identification.
-                  Collaborated with design leadership to
-                  restructure token system into simplified,
-                  semantic, tiered architecture with clearer
-                  naming conventions, improving design system
-                  consistency and developer experience for 200+
-                  developers.
+                  enabling real-time token tracking and unused
+                  token identification for developer-designer
+                  collaboration. Restructured token system into
+                  simplified, semantic, tiered architecture
+                  improving consistency for 200+ developers.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Design System Feedback Loop:
+                    Established design system feedback loop
                   </strong>{" "}
-                  Established developer feedback system allowing
-                  engineers to request features and enhancements
-                  to design system components. Addressed
-                  long-standing need for structured feedback
-                  mechanism, improving component adoption and
-                  developer satisfaction across engineering teams.
+                  allowing engineers to request component
+                  features and enhancements. Addressed
+                  long-standing need, improving adoption and
+                  developer satisfaction across teams.
                 </li>
               </ul>
             </div>
@@ -184,48 +170,41 @@ export function Resume() {
               <ul className="space-y-2.5 text-[#5f6368] text-sm">
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Email Campaign Development:
+                    Coded GDPR-compliant email campaigns
                   </strong>{" "}
-                  Developed and coded responsive HTML/CSS email
-                  templates for marketing campaigns and client
-                  communications ensuring GDPR compliance. Built
+                  using responsive HTML/CSS templates for
+                  marketing and client communications. Built
                   reusable email component system with
-                  cross-client compatibility testing (Outlook,
-                  Gmail, Apple Mail). Implemented responsive
-                  layouts and WCAG-compliant designs ensuring
-                  accessibility across all email platforms.
+                  cross-client testing (Outlook, Gmail, Apple
+                  Mail) and WCAG-compliant responsive layouts.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Component Library Architecture:
+                    Improved load times 45%
                   </strong>{" "}
-                  Built Angular component library with ITCSS
-                  methodology and design token system for 300K+
-                  users across 12 markets. Improved load times
-                  by 45% through migration from legacy
-                  AngularJS. Ensured GDPR compliance across all
-                  applications and user data handling.
+                  by migrating Angular component library from
+                  legacy AngularJS for 300K+ users across 12
+                  markets. Implemented ITCSS methodology, design
+                  token system, and GDPR compliance across all
+                  applications.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    WCAG Compliance & Accessibility:
+                    Achieved 100% WCAG 2.1 AA compliance
                   </strong>{" "}
-                  Achieved 100% WCAG 2.1 AA compliance in
-                  external audit. Hand-coded semantic HTML with
-                  proper ARIA attributes, ensuring keyboard
-                  navigation and screen reader compatibility
-                  across web and email interfaces.
+                  in external audit by hand-coding semantic HTML
+                  with ARIA attributes, keyboard navigation, and
+                  screen reader compatibility across web and
+                  email interfaces.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Enterprise Client Solutions:
+                    Delivered financial dashboards
                   </strong>{" "}
-                  Delivered financial dashboards and loan
-                  management systems for Wells Fargo and Sallie
-                  Mae. Built responsive front-end interfaces
-                  with React and Angular, improving customer
-                  satisfaction through accessible, data-driven
-                  experiences.
+                  for Wells Fargo and Sallie Mae using React and
+                  Angular. Built responsive, accessible,
+                  data-driven front-end interfaces improving
+                  customer satisfaction.
                 </li>
               </ul>
             </div>
