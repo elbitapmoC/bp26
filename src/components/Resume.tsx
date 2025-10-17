@@ -87,10 +87,10 @@ export function Resume() {
                     Email Template Development (Centurion
                     System):
                   </strong>{" "}
-                  Developed responsive email template system serving 
-                  2M+ recipients monthly for premium Black Card 
-                  members. Collaborated with team to hand-code 
-                  HTML/CSS templates with cross-platform 
+                  Led end-to-end development of responsive email
+                  template system serving 2M+ recipients monthly
+                  for premium Black Card members. Hand-coded
+                  HTML/CSS templates with cross-platform
                   compatibility (Gmail, Outlook, Apple Mail).
                   Implemented WCAG 2.1 AA accessibility
                   standards and rigorous email testing workflows
@@ -135,14 +135,43 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    React Component Library & Leadership:
+                    Design System Migration & Component Enhancement:
                   </strong>{" "}
-                  Built enterprise design system with React and
-                  TypeScript serving 200+ developers. Mentored 5
-                  junior developers and 15+ senior engineers.
-                  Increased test coverage from 45% to 75% using
-                  React Testing Library and Jest, reducing
-                  production bugs by 40%.
+                  Joined enterprise design system team during v6 to v7 transition serving 20000+ developers. Enhanced assigned v7 components with React and TypeScript, and assisted multiple teams in upgrading from v6 to v7, ensuring full compliance and WCAG accessibility standards across migrated applications.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Theme Builder & Token Management:
+                  </strong>{" "}
+                  Architected internal theme builder tool for
+                  developer-designer collaboration, enabling
+                  real-time token tracking and identification of
+                  unused design tokens across the codebase.
+                  Improved design system consistency and reduced
+                  token redundancy by streamlining token usage
+                  visibility for 200+ developers.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Design System Feedback Loop:
+                  </strong>{" "}
+                  Established developer feedback system allowing
+                  engineers to request features and enhancements
+                  to design system components. Addressed
+                  long-standing need for structured feedback
+                  mechanism, improving component adoption and
+                  developer satisfaction across engineering teams.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Token System Enhancement:
+                  </strong>{" "}
+                  Collaborated with design leadership to
+                  restructure token system into simplified,
+                  semantic, and tiered architecture. Enhanced
+                  developer experience through clearer token
+                  naming conventions and reduced complexity in
+                  design-to-code handoff workflows.
                 </li>
               </ul>
             </div>
@@ -228,7 +257,6 @@ export function Resume() {
                   <li>Litmus / Email on Acid</li>
                   <li>Cross-Platform Testing</li>
                   <li>Gmail / Outlook / Apple</li>
-                  <li>MJML</li>
                 </ul>
               </div>
 
@@ -242,7 +270,6 @@ export function Resume() {
                   <li>HTML5 / CSS3</li>
                   <li>Sass/SCSS</li>
                   <li>Tailwind CSS</li>
-                  <li>Angular / NgRX</li>
                 </ul>
               </div>
 
