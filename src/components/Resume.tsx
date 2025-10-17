@@ -1,4 +1,4 @@
-import { Mail, MapPin, Github } from "lucide-react";
+import { Mail, MapPin, Github, Phone } from "lucide-react";
 
 export function Resume() {
   return (
@@ -26,7 +26,8 @@ export function Resume() {
               <div className="flex items-center gap-2">
                 <Github className="w-3.5 h-3.5" />
                 <a
-                  href="#"
+                  href="https://github.com/elbitapmoC"
+                  target="_blank"
                   className="text-[#4285f4] hover:underline"
                 >
                   Github Profile
@@ -35,6 +36,10 @@ export function Resume() {
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5" />
                 <span>Fort Lauderdale, FL</span>
+              </div>
+                <div className="flex items-center gap-2">
+                <Phone className="w-3.5 h-3.5" />
+                <span>951-447-6305</span>
               </div>
             </div>
           </header>
@@ -82,10 +87,10 @@ export function Resume() {
                     Email Template Development (Centurion
                     System):
                   </strong>{" "}
-                  Led end-to-end development of responsive email
-                  template system serving 2M+ recipients monthly
-                  for premium Black Card members. Hand-coded
-                  HTML/CSS templates with cross-platform
+                  Developed responsive email template system serving 
+                  2M+ recipients monthly for premium Black Card 
+                  members. Collaborated with team to hand-code 
+                  HTML/CSS templates with cross-platform 
                   compatibility (Gmail, Outlook, Apple Mail).
                   Implemented WCAG 2.1 AA accessibility
                   standards and rigorous email testing workflows
