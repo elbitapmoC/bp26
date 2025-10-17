@@ -141,15 +141,17 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Theme Builder & Token Management:
+                    Theme Builder & Token System Architecture:
                   </strong>{" "}
                   Architected internal theme builder tool for
-                  developer-designer collaboration, enabling
-                  real-time token tracking and identification of
-                  unused design tokens across the codebase.
-                  Improved design system consistency and reduced
-                  token redundancy by streamlining token usage
-                  visibility for 200+ developers.
+                  developer-designer collaboration with real-time
+                  token tracking and unused token identification.
+                  Collaborated with design leadership to
+                  restructure token system into simplified,
+                  semantic, tiered architecture with clearer
+                  naming conventions, improving design system
+                  consistency and developer experience for 200+
+                  developers.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
@@ -161,17 +163,6 @@ export function Resume() {
                   long-standing need for structured feedback
                   mechanism, improving component adoption and
                   developer satisfaction across engineering teams.
-                </li>
-                <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
-                    Token System Enhancement:
-                  </strong>{" "}
-                  Collaborated with design leadership to
-                  restructure token system into simplified,
-                  semantic, and tiered architecture. Enhanced
-                  developer experience through clearer token
-                  naming conventions and reduced complexity in
-                  design-to-code handoff workflows.
                 </li>
               </ul>
             </div>
