@@ -1,7 +1,7 @@
 
-  # Generate PDF Documents
+  # Bazell Resume | UI Engineer
 
-  This is a code bundle for Generate PDF Documents. The original project is available at https://www.figma.com/design/yhUC06KLoCjBMpJCpEPbMt/Generate-PDF-Documents.
+  This is a code bundle for Bazell Resume | UI Engineer. The original project is available at https://www.figma.com/design/yhUC06KLoCjBMpJCpEPbMt/Generate-PDF-Documents.
 
   ## Running the code
 
