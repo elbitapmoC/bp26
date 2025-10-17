@@ -9,6 +9,3 @@
 
   Run `npm run dev` to start the development server.
   # bp2026
-# bp2026
-# bp2026
-# bp26
