@@ -1,4 +1,4 @@
-import { Mail, MapPin, Github, Phone } from "lucide-react";
+import { Mail, MapPin, Github, Globe, Phone } from "lucide-react";
 
 export function Resume() {
   return (
@@ -14,14 +14,23 @@ export function Resume() {
               </h1>
               <div className="h-0.5 w-12 bg-[#4285f4]"></div>
             </div>
-            <p className="text-[#5f6368] text-lg mb-6">
-              Senior UI Engineer
-            </p>
+            <p className="text-[#5f6368] text-lg mb-6">Senior UI Engineer</p>
 
             <div className="flex gap-6 text-[#5f6368] text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5" />
                 <span>BP@Sojourn.LLC</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Globe className="w-3.5 h-3.5" />
+                <a
+                  href="https://sojourn.llc"
+                  className="text-[#4285f4] hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Github className="w-3.5 h-3.5" />
@@ -37,10 +46,6 @@ export function Resume() {
                 <MapPin className="w-3.5 h-3.5" />
                 <span>Fort Lauderdale, FL</span>
               </div>
-                <div className="flex items-center gap-2">
-                <Phone className="w-3.5 h-3.5" />
-                <span>951-447-6305</span>
-              </div>
             </div>
           </header>
 
@@ -48,16 +53,13 @@ export function Resume() {
           <section className="mb-14">
             <h2 className="text-[#1a1a1a] mb-4">Summary</h2>
             <p className="text-[#5f6368] text-sm leading-relaxed">
-              Senior UI Engineer with 7+ years specializing in
-              email template development, React applications,
-              and enterprise-scale front-end systems. Expert in
-              HTML/CSS coding for responsive email campaigns,
-              cross-platform testing, and WCAG-compliant
-              interfaces. Proven success building email systems
-              serving 2M+ recipients monthly, architecting
-              design systems for 10,000+ developers, and delivering
-              high-impact user experiences at Fortune 500
-              companies including American Express and PwC.
+              Senior UI Engineer with 7+ years building responsive email
+              templates, React applications, and enterprise design systems for
+              Fortune 500 companies. Delivered email campaigns to 2M+ monthly
+              recipients and design systems serving 10,000+ developers. Expert
+              in HTML/CSS email coding, cross-platform testing (Litmus, Email on
+              Acid), WCAG 2.1 AA accessibility, and React/TypeScript component
+              architecture.
             </p>
           </section>
 
@@ -65,19 +67,15 @@ export function Resume() {
           <section>
             <h2 className="text-[#1a1a1a] mb-6">Experience</h2>
 
-            {/* American Express */}
+            {/* American Express - Sr. UI Engineer */}
             <div className="mb-10">
               <div className="flex justify-between items-baseline mb-4">
                 <div>
-                  <h3 className="text-[#1a1a1a]">
-                    Design Systems Engineer
-                  </h3>
-                  <p className="text-[#4285f4] text-sm">
-                    American Express
-                  </p>
+                  <h3 className="text-[#1a1a1a]">Sr. UI Engineer</h3>
+                  <p className="text-[#4285f4] text-sm">American Express</p>
                 </div>
                 <span className="text-xs text-[#5f6368]">
-                  2023 - Current
+                  Feb 2025 - Current
                 </span>
               </div>
 
@@ -86,69 +84,184 @@ export function Resume() {
                   <strong className="text-[#1a1a1a]">
                     Delivered 2M+ monthly email campaigns
                   </strong>{" "}
-                  for Centurion Black Card members by
-                  hand-coding responsive HTML/CSS email
-                  templates with cross-platform compatibility
-                  (Gmail, Outlook, Apple Mail). Implemented WCAG
-                  2.1 AA accessibility and rigorous testing
-                  workflows using Litmus and Email on Acid.
+                  for Centurion Black Card members by hand-coding responsive
+                  HTML/CSS email templates with cross-platform compatibility
+                  (Gmail, Outlook, Apple Mail). Implemented WCAG 2.1 AA
+                  accessibility and rigorous testing workflows using Litmus and
+                  Email on Acid.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Reduced security incidents 77%
                   </strong>{" "}
-                  by implementing Passkeys authentication as SME
-                  using WebAuthn and crypto.subtle APIs.
-                  Simplified login UX while eliminating phishing
-                  vulnerabilities and unauthorized access
-                  attempts.
+                  by implementing Passkeys authentication as SME using WebAuthn
+                  and crypto.subtle APIs. Simplified login UX while eliminating
+                  phishing vulnerabilities and unauthorized access attempts.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Improved onboarding efficiency 10-30%
                   </strong>{" "}
-                  by developing consolidated Onboarding Wizard
-                  with React, email/OTP/SMS verification, and
-                  streamlined POD/POA workflows. Reduced login
-                  completion time by 12% and increased user
+                  by developing consolidated Onboarding Wizard with React,
+                  email/OTP/SMS verification, and streamlined POD/POA workflows.
+                  Reduced login completion time by 12% and increased user
                   satisfaction by 12%.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Validated UX across 100K+ users
                   </strong>{" "}
-                  through A/B testing and end-to-end testing with
-                  global UX teams. Resolved 25+ broken links and
-                  improved experiences in unsupported
-                  international markets.
+                  through A/B testing and end-to-end testing with global UX
+                  teams. Resolved 25+ broken links and improved experiences in
+                  unsupported international markets.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Migrated 200+ developers to v7 design system
                   </strong>{" "}
-                  by enhancing React/TypeScript components and
-                  assisting teams in v6 to v7 upgrades. Ensured
-                  full WCAG accessibility compliance across all
-                  migrated applications.
+                  by enhancing React/TypeScript components and assisting teams
+                  in v6 to v7 upgrades. Ensured full WCAG accessibility
+                  compliance across all migrated applications.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Built theme builder tool
                   </strong>{" "}
-                  enabling real-time token tracking and unused
-                  token identification for developer-designer
-                  collaboration. Restructured token system into
-                  simplified, semantic, tiered architecture
-                  improving consistency for 200+ developers.
+                  enabling real-time token tracking and unused token
+                  identification for developer-designer collaboration.
+                  Restructured token system into simplified, semantic, tiered
+                  architecture improving consistency for 200+ developers.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Established design system feedback loop
                   </strong>{" "}
-                  allowing engineers to request component
-                  features and enhancements. Addressed
-                  long-standing need, improving adoption and
-                  developer satisfaction across teams.
+                  allowing engineers to request component features and
+                  enhancements. Addressed long-standing need, improving adoption
+                  and developer satisfaction across teams.
+                </li>
+              </ul>
+            </div>
+
+            {/* Sojourner LLC */}
+            <div className="mb-10">
+              <div className="flex justify-between items-baseline mb-4">
+                <div>
+                  <h3 className="text-[#1a1a1a]">Sr. Front-End Developer</h3>
+                  <p className="text-[#4285f4] text-sm">Sojourner LLC</p>
+                </div>
+                <span className="text-xs text-[#5f6368]">
+                  Nov 2022 - Current
+                </span>
+              </div>
+
+              <ul className="space-y-2.5 text-[#5f6368] text-sm">
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Improved prescription accuracy 25%
+                  </strong>{" "}
+                  by designing data visualization tools with React, Zustand, and
+                  Tailwind CSS, providing pharmacists real-time insights for
+                  dosage suggestions and clinical decisions.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Reduced prescription processing time 20%
+                  </strong>{" "}
+                  by building React frontend integrated with Node.js backend,
+                  streamlining workflow efficiency for healthcare providers.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Increased clinician satisfaction 20%
+                  </strong>{" "}
+                  by partnering with clinical SMEs to align UI components with
+                  healthcare workflows and user needs.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Enhanced user engagement
+                  </strong>{" "}
+                  with AI-powered recommendation system providing personalized
+                  reading suggestions based on behavioral insights and ML
+                  algorithms.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Cut development time 15%
+                  </strong>{" "}
+                  by implementing modular, accessible component library with
+                  ShadCN, enabling rapid future updates and consistent UI
+                  patterns.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Achieved 100% deployment success
+                  </strong>{" "}
+                  through end-to-end testing with BrowserStack, ensuring
+                  seamless cross-device performance and compatibility.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Reduced server requests 15%
+                  </strong>{" "}
+                  by implementing React Query and caching strategies, improving
+                  load times and app responsiveness.
+                </li>
+              </ul>
+            </div>
+
+            {/* American Express - Sr. Front End Developer */}
+            <div className="mb-10">
+              <div className="flex justify-between items-baseline mb-4">
+                <div>
+                  <h3 className="text-[#1a1a1a]">Sr. Front-End Developer</h3>
+                  <p className="text-[#4285f4] text-sm">American Express</p>
+                </div>
+                <span className="text-xs text-[#5f6368]">
+                  Oct 2023 - July 2024
+                </span>
+              </div>
+
+              <ul className="space-y-2.5 text-[#5f6368] text-sm">
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Reduced security incidents 77%
+                  </strong>{" "}
+                  by leading Passkeys implementation using WebAuthN and
+                  crypto.subtle APIs, streamlining authentication for billions
+                  of customers and eliminating phishing vulnerabilities.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Cut development time 9%
+                  </strong>{" "}
+                  by enhancing design system with reusable React/TypeScript UI
+                  components, improving design consistency across three
+                  platforms.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Reduced login times 12%
+                  </strong>{" "}
+                  by redesigning consolidated login screens with email, OTP, and
+                  SMS verification, boosting user satisfaction through
+                  streamlined POD/POA workflows.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Improved process efficiency 30%
+                  </strong>{" "}
+                  by building onboarding wizard for 50+ architects, directors,
+                  and senior managers, facilitating exploration of new ideas
+                  with step-by-step guidance.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">
+                    Increased test coverage 30%
+                  </strong>{" "}
+                  using Storybook, React Testing Library, and Jest, enhancing
+                  component reliability and development consistency by 50%.
                 </li>
               </ul>
             </div>
@@ -157,14 +270,10 @@ export function Resume() {
             <div className="mb-10">
               <div className="flex justify-between items-baseline mb-4">
                 <div>
-                  <h3 className="text-[#1a1a1a]">
-                    Sr. UI Engineer
-                  </h3>
+                  <h3 className="text-[#1a1a1a]">Sr. UI Engineer</h3>
                   <p className="text-[#4285f4] text-sm">PwC</p>
                 </div>
-                <span className="text-xs text-[#5f6368]">
-                  2018 - 2022
-                </span>
+                <span className="text-xs text-[#5f6368]">Apr 2018 - Apr 2022</span>
               </div>
 
               <ul className="space-y-2.5 text-[#5f6368] text-sm">
@@ -172,39 +281,35 @@ export function Resume() {
                   <strong className="text-[#1a1a1a]">
                     Coded GDPR-compliant email campaigns
                   </strong>{" "}
-                  using responsive HTML/CSS templates for
-                  marketing and client communications. Built
-                  reusable email component system with
-                  cross-client testing (Outlook, Gmail, Apple
-                  Mail) and WCAG-compliant responsive layouts.
+                  using responsive HTML/CSS templates for marketing and client
+                  communications. Built reusable email component system with
+                  cross-client testing (Outlook, Gmail, Apple Mail) and
+                  WCAG-compliant responsive layouts.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Improved load times 45%
                   </strong>{" "}
-                  by migrating Angular component library from
-                  legacy AngularJS for 300K+ users across 12
-                  markets. Implemented ITCSS methodology, design
-                  token system, and GDPR compliance across all
-                  applications.
+                  by migrating Angular component library from legacy AngularJS
+                  for 300K+ users across 12 markets. Implemented ITCSS
+                  methodology, design token system, and GDPR compliance across
+                  all applications.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Achieved 100% WCAG 2.1 AA compliance
                   </strong>{" "}
-                  in external audit by hand-coding semantic HTML
-                  with ARIA attributes, keyboard navigation, and
-                  screen reader compatibility across web and
-                  email interfaces.
+                  in external audit by hand-coding semantic HTML with ARIA
+                  attributes, keyboard navigation, and screen reader
+                  compatibility across web and email interfaces.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
                     Delivered financial dashboards
                   </strong>{" "}
-                  for Wells Fargo and Sallie Mae using React and
-                  Angular. Built responsive, accessible,
-                  data-driven front-end interfaces improving
-                  customer satisfaction.
+                  for Wells Fargo and Sallie Mae using React and Angular. Built
+                  responsive, accessible, data-driven front-end interfaces
+                  improving customer satisfaction.
                 </li>
               </ul>
             </div>
@@ -212,9 +317,7 @@ export function Resume() {
 
           {/* Skills */}
           <section>
-            <h2 className="text-[#1a1a1a] mb-5">
-              Technical Skills
-            </h2>
+            <h2 className="text-[#1a1a1a] mb-5">Technical Skills</h2>
 
             <div className="grid grid-cols-4 gap-8">
               <div>
@@ -231,9 +334,7 @@ export function Resume() {
               </div>
 
               <div>
-                <h4 className="text-[#1a1a1a] text-xs mb-2.5">
-                  Front-End
-                </h4>
+                <h4 className="text-[#1a1a1a] text-xs mb-2.5">Front-End</h4>
                 <ul className="space-y-1.5 text-[#5f6368] text-xs">
                   <li>React / Next.js</li>
                   <li>TypeScript / JavaScript</li>
@@ -280,9 +381,7 @@ export function Resume() {
         <div className="px-20 py-16">
           {/* Awards */}
           <section className="mb-14">
-            <h2 className="text-[#1a1a1a] mb-5">
-              Awards & Recognition
-            </h2>
+            <h2 className="text-[#1a1a1a] mb-5">Awards & Recognition</h2>
 
             <div className="grid grid-cols-2 gap-x-16 gap-y-4">
               <div>
@@ -290,14 +389,11 @@ export function Resume() {
                   Mentor Madness Winner
                 </h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
-                  Outstanding technical mentorship and peer
-                  leadership
+                  Outstanding technical mentorship and peer leadership
                 </p>
               </div>
               <div>
-                <h4 className="text-[#1a1a1a] text-sm">
-                  Digital Dose Badge
-                </h4>
+                <h4 className="text-[#1a1a1a] text-sm">Digital Dose Badge</h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
                   Excellence in digital innovation
                 </p>
@@ -311,9 +407,7 @@ export function Resume() {
                 </p>
               </div>
               <div>
-                <h4 className="text-[#1a1a1a] text-sm">
-                  SAFe Certified
-                </h4>
+                <h4 className="text-[#1a1a1a] text-sm">SAFe Certified</h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
                   Scaled Agile Framework
                 </p>
@@ -323,9 +417,7 @@ export function Resume() {
 
           {/* Key Competencies */}
           <section className="mb-14">
-            <h2 className="text-[#1a1a1a] mb-4">
-              Key Competencies
-            </h2>
+            <h2 className="text-[#1a1a1a] mb-4">Key Competencies</h2>
 
             <div className="grid grid-cols-3 gap-x-12 gap-y-2 text-[#5f6368] text-xs">
               <span>• Email Campaign Development</span>
@@ -345,9 +437,7 @@ export function Resume() {
 
           {/* Education */}
           <section>
-            <h2 className="text-[#1a1a1a] mb-5">
-              Education & Certifications
-            </h2>
+            <h2 className="text-[#1a1a1a] mb-5">Education & Certifications</h2>
 
             <div className="space-y-4">
               <div>
@@ -356,26 +446,19 @@ export function Resume() {
                 </h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
                   A.A.S Information Technology
-                  <span className="text-[#4285f4]">
-                    {" "}
-                    (Expected Dec 2025)
-                  </span>
+                  <span className="text-[#4285f4]"> (TBD)</span>
                 </p>
               </div>
 
               <div>
-                <h4 className="text-[#1a1a1a] text-sm">
-                  Udacity
-                </h4>
+                <h4 className="text-[#1a1a1a] text-sm">Udacity</h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
                   UX / HCI (Human Computer Interactions)
                 </p>
               </div>
 
               <div>
-                <h4 className="text-[#1a1a1a] text-sm">
-                  Free Code Camp
-                </h4>
+                <h4 className="text-[#1a1a1a] text-sm">Free Code Camp</h4>
                 <p className="text-[#5f6368] text-xs mt-0.5">
                   Front End Development Certificate
                 </p>
