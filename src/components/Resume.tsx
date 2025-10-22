@@ -6,17 +6,23 @@ export function Resume() {
       {/* Page 1 */}
       <div className="max-w-[8.5in] mx-auto bg-white min-h-[11in]">
         <div className="px-20 py-16">
+
           {/* Header */}
           <header className="mb-14">
             <div className="mb-6">
-              <h1 className="text-[#1a1a1a] mb-2 tracking-tight">
+              <h1 className="text-[#1a1a1a] mb-2 tracking-tight text-3xl sm:text-4xl">
                 Bazell Partridge
               </h1>
+              {/* Optional: Increased h1 text size for better responsiveness */}
               <div className="h-0.5 w-12 bg-[#4285f4]"></div>
             </div>
             <p className="text-[#5f6368] text-lg mb-6">Senior UI Engineer</p>
 
-            <div className="flex gap-6 text-[#5f6368] text-sm">
+            {/* Responsive contact info section */}
+            <div className="flex flex-col gap-4 text-[#5f6368] text-sm md:flex-row md:gap-6 md:flex-wrap">
+              {/* Added flex-col and gap-4 for mobile, md:flex-row and md:gap-6 for desktop. 
+                  md:flex-wrap ensures the items wrap on medium screens if space is tight. */}
+              
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5" />
                 <span>BP@Sojourn.LLC</span>
