@@ -57,9 +57,10 @@ export function Resume() {
               templates, React applications, and enterprise design systems for
               Fortune 500 companies. Delivered email campaigns to 2M+ monthly
               recipients and design systems serving 10,000+ developers. Expert
-              in HTML/CSS email coding, cross-platform testing (Litmus, Email on
+              in React Email and HTML/CSS email coding, cross-platform testing (Email on
               Acid), WCAG 2.1 AA accessibility, and React/TypeScript component
-              architecture.
+              architecture. Collaborate cross-functionally with product, compliance, and UX to deliver
+              accessible, high-impact experiences.
             </p>
           </section>
 
@@ -82,30 +83,12 @@ export function Resume() {
               <ul className="space-y-2.5 text-[#5f6368] text-sm">
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Delivered 2M+ monthly email campaigns
+                    2M+ email campaigns
                   </strong>{" "}
-                  for Centurion Black Card members by hand-coding responsive
-                  HTML/CSS email templates with cross-platform compatibility
-                  (Gmail, Outlook, Apple Mail). Implemented WCAG 2.1 AA
-                  accessibility and rigorous testing workflows using Litmus and
-                  Email on Acid.
-                </li>
-                <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
-                    Reduced security incidents 77%
-                  </strong>{" "}
-                  by implementing Passkeys authentication as SME using WebAuthn
-                  and crypto.subtle APIs. Simplified login UX while eliminating
-                  phishing vulnerabilities and unauthorized access attempts.
-                </li>
-                <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
-                    Improved onboarding efficiency 10-30%
-                  </strong>{" "}
-                  by developing consolidated Onboarding Wizard with React,
-                  email/OTP/SMS verification, and streamlined POD/POA workflows.
-                  Reduced login completion time by 12% and increased user
-                  satisfaction by 12%.
+                  for AMEX Card members. Hand-coding responsive
+                  HTML/CSS email templates and building modular templates with React Email,
+                  with cross-platform compatibility (Gmail, Outlook, Apple Mail). Implemented WCAG 2.1 AA
+                  accessibility and rigorous testing workflows using Email on Acid.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
@@ -116,12 +99,14 @@ export function Resume() {
                   unsupported international markets.
                 </li>
                 <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
-                    Migrated 200+ developers to v7 design system
-                  </strong>{" "}
-                  by enhancing React/TypeScript components and assisting teams
-                  in v6 to v7 upgrades. Ensured full WCAG accessibility
-                  compliance across all migrated applications.
+                  <strong className="text-[#1a1a1a]">Set org-wide accessibility and compliance standards</strong>{" "}
+                  by authoring best-practice React/TypeScript patterns, a11y coding guidelines, and design system
+                  governance adopted across Amex. Served as primary SME in the tech chat, supporting Senior Managers
+                  through Interns, and accelerated v6 to v7 adoption for 200+ developers.
+                </li>
+                <li className="leading-relaxed">
+                  <strong className="text-[#1a1a1a]">Partnered with product and compliance</strong>{" "}
+                  to align campaigns and ensure brand and regulatory standards.
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
@@ -151,7 +136,7 @@ export function Resume() {
                   <p className="text-[#4285f4] text-sm">Sojourner LLC</p>
                 </div>
                 <span className="text-xs text-[#5f6368]">
-                  Nov 2022 - Current
+                  Aug 2020 - Current
                 </span>
               </div>
 
@@ -188,21 +173,6 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Cut development time 15%
-                  </strong>{" "}
-                  by implementing modular, accessible component library with
-                  ShadCN, enabling rapid future updates and consistent UI
-                  patterns.
-                </li>
-                <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
-                    Achieved 100% deployment success
-                  </strong>{" "}
-                  through end-to-end testing with BrowserStack, ensuring
-                  seamless cross-device performance and compatibility.
-                </li>
-                <li className="leading-relaxed">
-                  <strong className="text-[#1a1a1a]">
                     Reduced server requests 15%
                   </strong>{" "}
                   by implementing React Query and caching strategies, improving
@@ -226,15 +196,15 @@ export function Resume() {
               <ul className="space-y-2.5 text-[#5f6368] text-sm">
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Reduced security incidents 77%
+                    Reduced security incidents ~70%
                   </strong>{" "}
-                  by leading Passkeys implementation using WebAuthN and
+                  by implemnting Passkeys using WebAuthN and
                   crypto.subtle APIs, streamlining authentication for billions
-                  of customers and eliminating phishing vulnerabilities.
+                  of customers and eliminating phishing vulnerabilities and unauthorized access attempts..
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Cut development time 9%
+                    Cut development time at least 20%
                   </strong>{" "}
                   by enhancing design system with reusable React/TypeScript UI
                   components, improving design consistency across three
@@ -242,7 +212,7 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Reduced login times 12%
+                    Reduced login times
                   </strong>{" "}
                   by redesigning consolidated login screens with email, OTP, and
                   SMS verification, boosting user satisfaction through
@@ -258,10 +228,10 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Increased test coverage 30%
+                    Increased test coverage 
                   </strong>{" "}
                   using Storybook, React Testing Library, and Jest, enhancing
-                  component reliability and development consistency by 50%.
+                  component reliability and development consistency, 80% test coverage on all components.
                 </li>
               </ul>
             </div>
@@ -270,7 +240,7 @@ export function Resume() {
             <div className="mb-10">
               <div className="flex justify-between items-baseline mb-4">
                 <div>
-                  <h3 className="text-[#1a1a1a]">Sr. UI Engineer</h3>
+                  <h3 className="text-[#1a1a1a]">Front End Engineer</h3>
                   <p className="text-[#4285f4] text-sm">PwC</p>
                 </div>
                 <span className="text-xs text-[#5f6368]">Apr 2018 - Apr 2022</span>
@@ -288,7 +258,7 @@ export function Resume() {
                 </li>
                 <li className="leading-relaxed">
                   <strong className="text-[#1a1a1a]">
-                    Improved load times 45%
+                    Improved load times
                   </strong>{" "}
                   by migrating Angular component library from legacy AngularJS
                   for 300K+ users across 12 markets. Implemented ITCSS
@@ -326,6 +296,7 @@ export function Resume() {
                 </h4>
                 <ul className="space-y-1.5 text-[#5f6368] text-xs">
                   <li>HTML Email Coding</li>
+                  <li>React Email</li>
                   <li>Responsive CSS</li>
                   <li>Litmus / Email on Acid</li>
                   <li>Cross-Platform Testing</li>
