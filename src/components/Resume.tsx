@@ -13,44 +13,50 @@ export function Resume() {
               <h1 className="text-[#1a1a1a] mb-2 tracking-tight text-3xl sm:text-4xl">
                 Bazell Partridge
               </h1>
-              {/* Optional: Increased h1 text size for better responsiveness */}
               <div className="h-0.5 w-12 bg-[#4285f4]"></div>
             </div>
             <p className="text-[#5f6368] text-lg mb-6">Senior UI Engineer</p>
 
-            {/* Responsive contact info section */}
-            <div className="flex flex-col gap-4 text-[#5f6368] text-sm md:flex-row md:gap-6 md:flex-wrap">
-              {/* Added flex-col and gap-4 for mobile, md:flex-row and md:gap-6 for desktop. 
-                  md:flex-wrap ensures the items wrap on medium screens if space is tight. */}
-              
-              <div className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5" />
-                <span>BP@Sojourn.LLC</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-3.5 h-3.5" />
-                <a
-                  href="https://sojourn.llc"
-                  className="text-[#4285f4] hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Website
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Github className="w-3.5 h-3.5" />
-                <a
-                  href="https://github.com/elbitapmoC"
-                  target="_blank"
-                  className="text-[#4285f4] hover:underline"
-                >
-                  Github Profile
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="w-3.5 h-3.5" />
-                <span>Fort Lauderdale, FL</span>
+            {/* REVISED: Responsive contact info section */}
+            <div className="text-[#5f6368] text-sm">
+              {/* Use a flex-wrap for small screens to prevent overflow, or a grid for better alignment. 
+                  Let's try a grid on extra-small/small screens and then revert to flex-row on medium screens. */}
+
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-4 md:flex md:flex-row md:gap-6 md:flex-wrap">
+                {/* - Default (xs): grid-cols-1 (stacks vertically, one item per row)
+                  - sm: grid-cols-2 (two items per row, which should prevent the messy wrapping seen)
+                  - md: flex-row (back to a single row layout)
+                */}
+
+                <div className="flex items-center gap-2">
+                  <Mail className="w-3.5 h-3.5" />
+                  <span>BP@Sojourn.LLC</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Globe className="w-3.5 h-3.5" />
+                  <a
+                    href="https://sojourn.llc"
+                    className="text-[#4285f4] hover:underline whitespace-nowrap"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Website
+                  </a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Github className="w-3.5 h-3.5" />
+                  <a
+                    href="https://github.com/elbitapmoC"
+                    target="_blank"
+                    className="text-[#4285f4] hover:underline whitespace-nowrap"
+                  >
+                    Github Profile
+                  </a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <MapPin className="w-3.5 h-3.5" />
+                  <span className='whitespace-nowrap'>Fort Lauderdale, FL</span>
+                </div>
               </div>
             </div>
           </header>
